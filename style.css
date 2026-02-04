@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header ul {
+    font-family: Montserrat;
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    right: 150px;
+}
+
+.header #nth1 {
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.header #nth2 {
+    position: absolute;
+    right: 30px;
+}
+
+.header ul a:hover {
+    color: #CA351C;
+    cursor: pointer;
+}
+
+.header ul a {
+    color: #000;
+}
+
+.banner {
+    background: url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_210/rwdMode_1/2400x836/main.webp);
+    height: 870px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.banner h1 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.banner h6 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.banner a {
+    color: #fff;
+    background-color: #854f4b;
+    padding: 12px 50px;
+}
+
+.bestsellers {
+    margin-bottom: 100px;
+}
+
+.bestsellers img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bestsellers .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bestsellers h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bestsellers .wrap p {
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.bestsellers h2 {
+    font-family: Montserrat;
+}
+
+.bestsellers .wrap h3 {
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+/* rasmlarga hover berish kerak */
+.collection {
+    height: 800px;
+    background-color: #DCDCDC;
+    margin-bottom: 100px;
+}
+
+.collection .wrap .left h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+}
+
+.collection .wrap .left p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+    margin: 30px 0;
+}
+
+.collection .wrap .left a {
+    font-family: Montserrat;
+    background-color: #854f4b;
+    padding: 15px 50px;
+    color: #fff;
+}
+
+.collection .left {
+    width: 40%;
+}
+
+.collection .right {
+    width: 50%;
+}
+
+.collection .wrap .sh {
+    height: 280px;
+    width: 100%;
+}
+
+.collection .wrap .ch {
+    height: 585px;
+    width: 50%;
+    margin-left: 25px;
+}
+
+.collection .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection .wrap .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.collection .wrap .right .sh {
+    display: flex;
+    flex-direction: column;
+}
+
+.sh:nth-child(1) {
+    margin-bottom: 25px;
+}
+
+.workshops {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.workshops .lefter {
+    width: 60%;
+}
+
+.workshops .righter {
+    width: 40%;
+}
+
+.workshops .lefter img {
+    height: 600px;
+}
+
+.workshops .righter h3 {
+    font-family: Montserrat;
+    font-size: 50px;
+}
+
+.workshops .righter p {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.workshops .righter a {
+    font-family: Montserrat;
+    color: #fff;
+    background-color: #854f4b;
+    padding: 12px 50px;
+}
+
+.employees {
+    height: 800px;
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.employees h3 {
+    font-family: Montserrat;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.employees .employement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.employees .employement h4 {
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.employees .employement p {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-align: center;
+}
+
+.employees .employement img {
+    transform: translateX(120px);
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.images .img1 {
+    height: 620px;
+    width: 580px;
+    margin-right: 20px;
+}
+
+.images .img2 {
+    height: 310px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.images .img3 {
+    height: 290px;
+    width: 290px;
+    margin-right: 10px;
+}
+
+.images .img4 {
+    height: 290px;
+    width: 290px;
+    margin-left: 10px;
+}
+
+.images .imgs3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images .imgs3 .imgs2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.story {
+    height: 800px;
+    background: url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_241/rwdMode_1/2400x800/history.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.story h2 {
+    font-family: Montserrat;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-family: Montserrat;
+    font-size: 17x;
+    color: #fff;
+}
+
+.story .wrapping {
+    padding-left: 50px;
+}
+
+.footer {
+    height: 150px;
+    width: auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer .wrapper ul li a {
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.footer .wrapper ul li {
+    font-family: Montserrat;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.footer .wrapper .div5 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.end {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end p {
+    color: #F5F5F5;
+    font-family: Montserrat;
+}
+
+.end p a {
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.end p a span {
+    font-family: Montserrat;
+    color: #00C853;
+}
